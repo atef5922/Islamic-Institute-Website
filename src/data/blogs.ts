@@ -1,4 +1,8 @@
 import type { BlogPost } from "@/types";
+import academic1 from "@/product/Academic/academic1.png";
+import academic2 from "@/product/Academic/academic2.png";
+import academic3 from "@/product/Academic/academic3.png";
+import heroBanner from "@/product/herobanner1.png";
 
 export const blogPosts: BlogPost[] = [
   {
@@ -8,8 +12,7 @@ export const blogPosts: BlogPost[] = [
     category: "কুরআন শিক্ষা",
     date: "১২ জানুয়ারি, ২০২৬",
     readTime: "৬ মিনিট",
-    image:
-      "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=900&q=80",
+    image: academic1,
     author: "মুফতি আবদুল্লাহ আল আমিন",
     content: [
       "কুরআন শিক্ষা শুধু তিলাওয়াত শেখার মধ্যে সীমাবদ্ধ নয়; এটি শিশুর চিন্তা, আচরণ ও দায়িত্ববোধকে সুন্দরভাবে গড়ে তোলে। শুদ্ধ উচ্চারণ, অর্থ বোঝার আগ্রহ এবং আমলের চর্চা একটি শিশুর জীবনে স্থায়ী প্রভাব ফেলে।",
@@ -23,8 +26,7 @@ export const blogPosts: BlogPost[] = [
     category: "নৈতিক শিক্ষা",
     date: "০৮ জানুয়ারি, ২০২৬",
     readTime: "৫ মিনিট",
-    image:
-      "https://images.unsplash.com/photo-1565034946487-077786996e27?auto=format&fit=crop&w=900&q=80",
+    image: heroBanner,
     author: "মাওলানা নোমান ইমরান",
     content: [
       "শিশুর চরিত্র গঠনের জন্য জ্ঞান, অনুশীলন ও পরিবেশ একসঙ্গে কাজ করে। মাদরাসার শৃঙ্খলাবদ্ধ পরিবেশ শিক্ষার্থীকে সময়ানুবর্তিতা, সম্মানবোধ ও দায়িত্বশীলতা শেখায়।",
@@ -38,8 +40,7 @@ export const blogPosts: BlogPost[] = [
     category: "হিফজ",
     date: "০২ জানুয়ারি, ২০২৬",
     readTime: "৭ মিনিট",
-    image:
-      "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
+    image: academic2,
     author: "হাফেজ মাহমুদ হাসান",
     content: [
       "হিফজ শিক্ষার্থীর সফলতার বড় শর্ত হলো ধারাবাহিক রুটিন। নতুন সবক, পুরোনো সবক ও আমপারা দাওরকে নির্দিষ্ট সময়ে ভাগ করে দিলে চাপ কমে এবং মুখস্থ মজবুত হয়।",
@@ -53,8 +54,7 @@ export const blogPosts: BlogPost[] = [
     category: "অভিভাবক নির্দেশনা",
     date: "২৮ ডিসেম্বর, ২০২৫",
     readTime: "৪ মিনিট",
-    image:
-      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80",
+    image: academic3,
     author: "ড. মাহবুবুর রহমান",
     content: [
       "শিক্ষার্থীর উন্নতি শুধু ক্লাসরুমের উপর নির্ভর করে না। ঘরের পরিবেশ, অভিভাবকের উৎসাহ এবং শিক্ষকের নিয়মিত মূল্যায়ন একসঙ্গে কাজ করলে ফলাফল ভালো হয়।",

@@ -1,4 +1,5 @@
 import type { Teacher } from "@/types";
+import principalImage from "@/product/principle.png";
 
 export const teachers: Teacher[] = [
   {
@@ -8,8 +9,7 @@ export const teachers: Teacher[] = [
     subject: "ফিকহ ও হাদিস",
     experience: "১৫ বছরের অভিজ্ঞতা",
     department: "কিতাব বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1618077360395-f3068be8e001?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৭১২-৩৪৫৬৭৮",
     bio: "দ্বীনি শিক্ষা, প্রশাসন ও শিক্ষার্থী তত্ত্বাবধানে দীর্ঘ অভিজ্ঞতাসম্পন্ন আলেম।"
   },
@@ -20,8 +20,7 @@ export const teachers: Teacher[] = [
     subject: "হিফজ ও দাওর",
     experience: "১২ বছরের অভিজ্ঞতা",
     department: "হিফজ বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৮২২-১১২২৩৩",
     bio: "শিক্ষার্থীর মেধা অনুযায়ী সবক পরিকল্পনা ও নিয়মিত দাওর পরিচালনায় দক্ষ।"
   },
@@ -32,8 +31,7 @@ export const teachers: Teacher[] = [
     subject: "আরবি ব্যাকরণ",
     experience: "১০ বছরের অভিজ্ঞতা",
     department: "নাজেরা বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৬৭৭-৫৫৪৪৩৩",
     bio: "আরবি ভাষা, নাহু-সরফ ও কুরআন পাঠে শিক্ষার্থীদের ভিত্তি শক্ত করতে কাজ করেন।"
   },
@@ -44,20 +42,18 @@ export const teachers: Teacher[] = [
     subject: "গণিত",
     experience: "৮ বছরের অভিজ্ঞতা",
     department: "একাডেমিক বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৯৩৩-৯৯৮৮৭৭",
     bio: "গণিতভীতি দূর করে ধাপে ধাপে সমস্যা সমাধানের অভ্যাস গড়ে তোলেন।"
   },
   {
     id: "teacher-5",
-    name: "জনাবা আয়েশা সিদ্দিকা",
+    name: "মাওলানা আব্দুর রহমান",
     designation: "নূরানী শিক্ষক",
     subject: "কায়দা ও আদব",
     experience: "৭ বছরের অভিজ্ঞতা",
     department: "নূরানী বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৫৫৫-৪৪৩৩২২",
     bio: "শিশুদের প্রাথমিক পাঠ, শুদ্ধ উচ্চারণ ও ভালো অভ্যাস গঠনে অভিজ্ঞ।"
   },
@@ -68,8 +64,7 @@ export const teachers: Teacher[] = [
     subject: "তাজবিদ",
     experience: "১১ বছরের অভিজ্ঞতা",
     department: "নাজেরা বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৭৬৬-৭৭৮৮৯৯",
     bio: "মাখরাজ, সিফাত ও তিলাওয়াত শুদ্ধকরণে বিশেষ প্রশিক্ষণ দেন।"
   },
@@ -80,8 +75,7 @@ export const teachers: Teacher[] = [
     subject: "কম্পিউটার",
     experience: "৬ বছরের অভিজ্ঞতা",
     department: "প্রযুক্তি বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৩৪৪-১২৩৪৫৬",
     bio: "কম্পিউটার শিক্ষা, ডিজিটাল নিরাপত্তা ও প্রজেক্টভিত্তিক শেখার কাজ পরিচালনা করেন।"
   },
@@ -92,8 +86,7 @@ export const teachers: Teacher[] = [
     subject: "ইংরেজি",
     experience: "৯ বছরের অভিজ্ঞতা",
     department: "একাডেমিক বিভাগ",
-    image:
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80",
+    image: principalImage,
     phone: "০১৮১১-২২৩৩৪৪",
     bio: "ভাষার চার দক্ষতা ও নৈতিক বিষয়ভিত্তিক পাঠে শিক্ষার্থীদের সহায়তা করেন।"
   }

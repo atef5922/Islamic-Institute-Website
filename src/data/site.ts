@@ -20,6 +20,9 @@ import {
   Wifi
 } from "lucide-react";
 import type { HeroSlide, IconContent, NavItem } from "@/types";
+import academic1 from "@/product/Academic/academic1.png";
+import academic2 from "@/product/Academic/academic2.png";
+import heroBanner from "@/product/herobanner1.png";
 
 export const siteInfo = {
   name: "মাদরাসাতুল হিদায়াহ",
@@ -70,8 +73,7 @@ export const heroSlides: HeroSlide[] = [
     primaryHref: "/admission",
     secondaryCta: "বিভাগসমূহ দেখুন",
     secondaryHref: "/departments",
-    image:
-      "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1400&q=85"
+    image: academic1
   },
   {
     eyebrow: "সমন্বিত শিক্ষা",
@@ -82,8 +84,7 @@ export const heroSlides: HeroSlide[] = [
     primaryHref: "/departments",
     secondaryCta: "ফলাফল দেখুন",
     secondaryHref: "/students",
-    image:
-      "https://images.unsplash.com/photo-1565034946487-077786996e27?auto=format&fit=crop&w=1400&q=85"
+    image: heroBanner
   },
   {
     eyebrow: "নিরাপদ আবাসিক ব্যবস্থা",
@@ -94,8 +95,7 @@ export const heroSlides: HeroSlide[] = [
     primaryHref: "/about#facilities",
     secondaryCta: "যোগাযোগ করুন",
     secondaryHref: "/contact",
-    image:
-      "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=1400&q=85"
+    image: academic2
   }
 ];
 

@@ -1,4 +1,9 @@
 import type { Department, DepartmentCategory } from "@/types";
+import academic1 from "@/product/Academic/academic1.png";
+import academic2 from "@/product/Academic/academic2.png";
+import academic3 from "@/product/Academic/academic3.png";
+import academic4 from "@/product/Academic/academic4.png";
+import heroBanner from "@/product/herobanner1.png";
 
 export const departmentFilters: DepartmentCategory[] = [
   "সব বিভাগ",
@@ -17,8 +22,7 @@ export const departments: Department[] = [
     level: "প্রাক-প্রাথমিক",
     duration: "১ বছর",
     seats: "৪০ আসন",
-    image:
-      "https://images.unsplash.com/photo-1599687266725-269f56dddf7f?auto=format&fit=crop&w=900&q=80",
+    image: academic2,
     features: ["শুদ্ধ উচ্চারণ", "প্রতিদিন সবক", "আচরণ গঠন"]
   },
   {
@@ -29,8 +33,7 @@ export const departments: Department[] = [
     level: "প্রাথমিক থেকে মাধ্যমিক",
     duration: "১-২ বছর",
     seats: "৫০ আসন",
-    image:
-      "https://images.unsplash.com/photo-1587617425953-9075d28b8c46?auto=format&fit=crop&w=900&q=80",
+    image: academic1,
     features: ["তাজবিদ চর্চা", "শ্রবণ মূল্যায়ন", "দৈনিক রিভিশন"]
   },
   {
@@ -41,8 +44,7 @@ export const departments: Department[] = [
     level: "নাজেরা উত্তীর্ণ",
     duration: "৩-৪ বছর",
     seats: "৩০ আসন",
-    image:
-      "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
+    image: heroBanner,
     features: ["ব্যক্তিগত সবক", "সাপ্তাহিক দাওর", "মাসিক মূল্যায়ন"]
   },
   {
@@ -53,8 +55,7 @@ export const departments: Department[] = [
     level: "মুতাওয়াসসিতাহ",
     duration: "৪ বছর",
     seats: "৩৫ আসন",
-    image:
-      "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=900&q=80",
+    image: academic3,
     features: ["দরস পদ্ধতি", "কিতাব পাঠ", "বক্তৃতা অনুশীলন"]
   },
   {
@@ -65,8 +66,7 @@ export const departments: Department[] = [
     level: "প্রথম থেকে অষ্টম",
     duration: "বার্ষিক কোর্স",
     seats: "৬০ আসন",
-    image:
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80",
+    image: academic4,
     features: ["ওয়ার্কশিট", "ক্লাস টেস্ট", "অভিভাবক রিপোর্ট"]
   },
   {
@@ -77,8 +77,7 @@ export const departments: Department[] = [
     level: "তৃতীয় থেকে অষ্টম",
     duration: "৬ মাস",
     seats: "২৫ আসন",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+    image: academic1,
     features: ["ল্যাব ক্লাস", "প্রজেক্ট কাজ", "নিরাপদ ইন্টারনেট"]
   }
 ];

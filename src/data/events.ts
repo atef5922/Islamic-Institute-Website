@@ -1,4 +1,8 @@
 import type { EventItem } from "@/types";
+import academic1 from "@/product/Academic/academic1.png";
+import academic3 from "@/product/Academic/academic3.png";
+import academic4 from "@/product/Academic/academic4.png";
+import heroBanner from "@/product/herobanner1.png";
 
 export const events: EventItem[] = [
   {
@@ -8,8 +12,7 @@ export const events: EventItem[] = [
     time: "সকাল ১০টা",
     location: "প্রধান মিলনায়তন",
     status: "আসন্ন",
-    image:
-      "https://images.unsplash.com/photo-1565034946487-077786996e27?auto=format&fit=crop&w=900&q=80",
+    image: heroBanner,
     description: "বার্ষিক পরীক্ষায় কৃতী শিক্ষার্থীদের সম্মাননা ও সাংস্কৃতিক পরিবেশনা অনুষ্ঠিত হবে।"
   },
   {
@@ -19,8 +22,7 @@ export const events: EventItem[] = [
     time: "বিকাল ৩টা",
     location: "হিফজ শাখা",
     status: "আসন্ন",
-    image:
-      "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=900&q=80",
+    image: academic1,
     description: "হিফজ শিক্ষার্থীদের সবক, দাওর ও তিলাওয়াত দক্ষতা মূল্যায়ন করা হবে।"
   },
   {
@@ -30,8 +32,7 @@ export const events: EventItem[] = [
     time: "সকাল ৯টা",
     location: "প্রধান ক্যাম্পাস",
     status: "সম্পন্ন",
-    image:
-      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80",
+    image: academic4,
     description: "শিক্ষার্থীদের অগ্রগতি, উপস্থিতি ও আচরণ উন্নয়ন নিয়ে অভিভাবকদের সঙ্গে আলোচনা।"
   },
   {
@@ -41,8 +42,7 @@ export const events: EventItem[] = [
     time: "দুপুর ১২টা",
     location: "একাডেমিক ভবন",
     status: "সম্পন্ন",
-    image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+    image: academic3,
     description: "শিক্ষার্থীদের প্রযুক্তি প্রজেক্ট, চার্ট ও শিক্ষণীয় প্রদর্শনী আয়োজন করা হয়।"
   }
 ];

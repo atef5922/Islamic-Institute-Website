@@ -1,4 +1,7 @@
+import type { StaticImageData } from "next/image";
 import type { LucideIcon } from "lucide-react";
+
+export type ImageSource = string | StaticImageData;
 
 export type DepartmentCategory = "সব বিভাগ" | "দ্বীনি শিক্ষা" | "হিফজ বিভাগ" | "একাডেমিক বিভাগ" | "প্রযুক্তি বিভাগ";
 
@@ -20,7 +23,7 @@ export interface HeroSlide {
   primaryHref: string;
   secondaryCta: string;
   secondaryHref: string;
-  image: string;
+  image: ImageSource;
 }
 
 export interface IconContent {
@@ -47,7 +50,7 @@ export interface Department {
   level: string;
   duration: string;
   seats: string;
-  image: string;
+  image: ImageSource;
   features: string[];
 }
 
@@ -58,7 +61,7 @@ export interface Teacher {
   subject: string;
   experience: string;
   department: string;
-  image: string;
+  image: ImageSource;
   phone: string;
   bio: string;
 }
@@ -68,14 +71,14 @@ export interface Testimonial {
   name: string;
   relation: string;
   text: string;
-  image: string;
+  image: ImageSource;
 }
 
 export interface GalleryItem {
   id: string;
   title: string;
   category: GalleryCategory;
-  image: string;
+  image: ImageSource;
 }
 
 export interface BlogPost {
@@ -85,7 +88,7 @@ export interface BlogPost {
   category: string;
   date: string;
   readTime: string;
-  image: string;
+  image: ImageSource;
   author: string;
   content: string[];
 }
@@ -97,7 +100,7 @@ export interface EventItem {
   time: string;
   location: string;
   status: "আসন্ন" | "সম্পন্ন";
-  image: string;
+  image: ImageSource;
   description: string;
 }
 

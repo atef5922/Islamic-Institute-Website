@@ -50,7 +50,11 @@ export default function DepartmentsPage() {
                   ["দুপুর", "বিশ্রাম", "বিশ্রাম", "খাবার", "খাবার"],
                   ["বিকাল", "আদব", "পুরোনো সবক", "ইংরেজি", "ফিকহ"]
                 ].map((row) => (
-                  <tr key={row[0]}>{row.map((cell) => <td key={cell} className="p-4">{cell}</td>)}</tr>
+                  <tr key={row[0]}>
+                    {row.map((cell, cellIndex) => (
+                      <td key={`${row[0]}-${cellIndex}`} className="p-4">{cell}</td>
+                    ))}
+                  </tr>
                 ))}
               </tbody>
             </table>

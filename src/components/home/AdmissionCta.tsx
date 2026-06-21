@@ -1,6 +1,7 @@
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import { LinkButton } from "@/components/shared/Button";
+import admissionImage from "@/product/herobanner1.png";
 
 export function AdmissionCta() {
   return (
@@ -23,10 +24,11 @@ export function AdmissionCta() {
             </div>
           </div>
           <Image
-            src="https://images.unsplash.com/photo-1565034946487-077786996e27?auto=format&fit=crop&w=700&q=85"
+            src={admissionImage}
             alt="ভর্তি চলমান শিক্ষার্থী"
             width={520}
             height={330}
+            quality={100}
             className="h-56 w-full rounded-xl object-cover md:h-64"
           />
         </div>

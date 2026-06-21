@@ -3,6 +3,7 @@ import Image from "next/image";
 import { PageHero } from "@/components/shared/PageHero";
 import { SectionHeader } from "@/components/shared/SectionHeader";
 import { committee, timeline, values } from "@/data/site";
+import campusImage from "@/product/Academic/academic2.png";
 
 export const metadata: Metadata = {
   title: "আমাদের সম্পর্কে",
@@ -35,10 +36,12 @@ export default function AboutPage() {
             </div>
           </div>
           <Image
-            src="https://images.unsplash.com/photo-1599687266725-269f56dddf7f?auto=format&fit=crop&w=1100&q=85"
+            src={campusImage}
             alt="মাদরাসার ক্যাম্পাস"
             width={900}
             height={650}
+            quality={100}
+            sizes="(max-width: 1023px) 100vw, 50vw"
             className="rounded-xl object-cover shadow-soft"
           />
         </div>

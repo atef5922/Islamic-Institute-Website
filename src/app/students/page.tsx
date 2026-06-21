@@ -32,7 +32,11 @@ export default function StudentsPage() {
                   ["৩য়", "মাহিম হাসান", "নূরানী", "২৬১"],
                   ["৪র্থ", "রাফি ইসলাম", "একাডেমিক", "২৫৬"]
                 ].map((row) => (
-                  <tr key={row[0]}>{row.map((cell) => <td key={cell} className="p-4">{cell}</td>)}</tr>
+                  <tr key={row[0]}>
+                    {row.map((cell, cellIndex) => (
+                      <td key={`${row[0]}-${cellIndex}`} className="p-4">{cell}</td>
+                    ))}
+                  </tr>
                 ))}
               </tbody>
             </table>
