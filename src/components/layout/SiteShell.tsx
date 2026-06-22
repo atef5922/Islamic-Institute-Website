@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 import { Footer } from "@/components/layout/Footer";
+import { FloatingActions } from "@/components/layout/FloatingActions";
 import { Header } from "@/components/layout/Header";
 
 export function SiteShell({ children }: { children: ReactNode }) {
@@ -15,6 +16,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
     <>
       <Header />
       <main>{children}</main>
+      <FloatingActions />
       <Footer />
     </>
   );
