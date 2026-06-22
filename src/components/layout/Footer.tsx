@@ -47,18 +47,18 @@ export function Footer() {
           </form>
         </div>
       </div>
-      <div className="container grid gap-8 py-12 md:grid-cols-2 xl:grid-cols-[1.2fr_0.9fr_0.9fr_1fr_1.1fr]">
+      <div className="container grid gap-6 py-9 md:grid-cols-2 xl:grid-cols-[1.2fr_0.9fr_0.9fr_1fr_1.1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-primary-dark">
-              <span className="text-2xl font-bold">হি</span>
+            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-white text-primary-dark">
+              <span className="text-lg font-bold">হি</span>
             </span>
-            <span className="text-xl font-bold">{siteInfo.name}</span>
+            <span className="text-lg font-bold">{siteInfo.name}</span>
           </div>
-          <p className="mt-4 leading-8 text-slate-300">
+          <p className="mt-3 leading-7 text-slate-300">
             কুরআন-সুন্নাহর আলোকে নৈতিকতা, জ্ঞান ও আধুনিক দক্ষতায় সমৃদ্ধ প্রজন্ম গড়ার একটি আদর্শ প্রতিষ্ঠান।
           </p>
-          <div className="mt-5 flex gap-2">
+          <div className="mt-4 flex gap-2">
             {[Facebook, Youtube, Twitter].map((Icon, index) => (
               <button
                 key={index}

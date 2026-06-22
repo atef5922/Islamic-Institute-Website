@@ -93,10 +93,16 @@ export default function AboutPage() {
         <div className="container">
           <SectionHeader title="পরিচালনা কমিটি" />
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-            {committee.map(({ name, role, icon: Icon }) => (
+            {committee.map(({ name, role, icon: Icon, image }) => (
               <article key={name} className="premium-card rounded-xl p-6 text-center">
-                <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-primary-soft text-primary">
-                  <Icon className="h-6 w-6" />
+                <span className="mx-auto block h-16 w-16 overflow-hidden rounded-full">
+                  {image ? (
+                    <Image src={image} alt={name} width={64} height={64} className="h-full w-full object-cover" />
+                  ) : (
+                    <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary-soft text-primary">
+                      <Icon className="h-7 w-7" />
+                    </span>
+                  )}
                 </span>
                 <h3 className="mt-4 text-lg font-bold text-primary-dark">{name}</h3>
                 <p className="mt-1 text-slate-500">{role}</p>

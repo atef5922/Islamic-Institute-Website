@@ -22,6 +22,10 @@ import {
 import type { HeroSlide, IconContent, NavItem } from "@/types";
 import academic1 from "@/product/Academic/academic1.png";
 import academic2 from "@/product/Academic/academic2.png";
+import committeeChairmanImage from "@/product/Teacher Panel/t1.png";
+import committeeSecretaryImage from "@/product/Teacher Panel/t2.png";
+import committeeMemberImage from "@/product/Teacher Panel/t3.png";
+import committeeTreasurerImage from "@/product/Teacher Panel/t4.png";
 import heroBanner from "@/product/herobanner1.png";
 
 export const siteInfo = {
@@ -204,10 +208,30 @@ export const timeline = [
 ];
 
 export const committee = [
-  { name: "মাওলানা আবদুল করীম", role: "সভাপতি", icon: Star },
-  { name: "ড. মাহবুবুর রহমান", role: "শিক্ষা উপদেষ্টা", icon: GraduationCap },
-  { name: "মুফতি সাইফুল ইসলাম", role: "সদস্য সচিব", icon: FileText },
-  { name: "হাফেজ নোমান হাসান", role: "অর্থ সম্পাদক", icon: CheckCircle2 }
+  {
+    name: "মাওলানা আবদুল করীম",
+    role: "সভাপতি",
+    icon: Star,
+    image: committeeChairmanImage
+  },
+  {
+    name: "ড. মাহবুবুর রহমান",
+    role: "শিক্ষা উপদেষ্টা",
+    icon: GraduationCap,
+    image: committeeSecretaryImage
+  },
+  {
+    name: "মুফতি সাইফুল ইসলাম",
+    role: "সদস্য সচিব",
+    icon: FileText,
+    image: committeeMemberImage
+  },
+  {
+    name: "হাফেজ নোমান হাসান",
+    role: "অর্থ সম্পাদক",
+    icon: CheckCircle2,
+    image: committeeTreasurerImage
+  }
 ];
 
 export const contactCards = [
