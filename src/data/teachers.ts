@@ -1,5 +1,12 @@
 import type { Teacher } from "@/types";
-import principalImage from "@/product/principle.png";
+import t1Image from "@/product/Teacher Panel/t1.png";
+import t2Image from "@/product/Teacher Panel/t2.png";
+import t3Image from "@/product/Teacher Panel/t3.png";
+import t4Image from "@/product/Teacher Panel/t4.png";
+import t5Image from "@/product/Teacher Panel/t5.png";
+import t6Image from "@/product/Teacher Panel/t6.png";
+import t7Image from "@/product/Teacher Panel/t7.png";
+import t8Image from "@/product/Teacher Panel/t8.png";
 
 export const teachers: Teacher[] = [
   {
@@ -9,7 +16,7 @@ export const teachers: Teacher[] = [
     subject: "ফিকহ ও হাদিস",
     experience: "১৫ বছরের অভিজ্ঞতা",
     department: "কিতাব বিভাগ",
-    image: principalImage,
+    image: t1Image,
     phone: "০১৭১২-৩৪৫৬৭৮",
     bio: "দ্বীনি শিক্ষা, প্রশাসন ও শিক্ষার্থী তত্ত্বাবধানে দীর্ঘ অভিজ্ঞতাসম্পন্ন আলেম।"
   },
@@ -20,7 +27,7 @@ export const teachers: Teacher[] = [
     subject: "হিফজ ও দাওর",
     experience: "১২ বছরের অভিজ্ঞতা",
     department: "হিফজ বিভাগ",
-    image: principalImage,
+    image: t2Image,
     phone: "০১৮২২-১১২২৩৩",
     bio: "শিক্ষার্থীর মেধা অনুযায়ী সবক পরিকল্পনা ও নিয়মিত দাওর পরিচালনায় দক্ষ।"
   },
@@ -31,7 +38,7 @@ export const teachers: Teacher[] = [
     subject: "আরবি ব্যাকরণ",
     experience: "১০ বছরের অভিজ্ঞতা",
     department: "নাজেরা বিভাগ",
-    image: principalImage,
+    image: t3Image,
     phone: "০১৬৭৭-৫৫৪৪৩৩",
     bio: "আরবি ভাষা, নাহু-সরফ ও কুরআন পাঠে শিক্ষার্থীদের ভিত্তি শক্ত করতে কাজ করেন।"
   },
@@ -42,7 +49,7 @@ export const teachers: Teacher[] = [
     subject: "গণিত",
     experience: "৮ বছরের অভিজ্ঞতা",
     department: "একাডেমিক বিভাগ",
-    image: principalImage,
+    image: t4Image,
     phone: "০১৯৩৩-৯৯৮৮৭৭",
     bio: "গণিতভীতি দূর করে ধাপে ধাপে সমস্যা সমাধানের অভ্যাস গড়ে তোলেন।"
   },
@@ -53,7 +60,7 @@ export const teachers: Teacher[] = [
     subject: "কায়দা ও আদব",
     experience: "৭ বছরের অভিজ্ঞতা",
     department: "নূরানী বিভাগ",
-    image: principalImage,
+    image: t5Image,
     phone: "০১৫৫৫-৪৪৩৩২২",
     bio: "শিশুদের প্রাথমিক পাঠ, শুদ্ধ উচ্চারণ ও ভালো অভ্যাস গঠনে অভিজ্ঞ।"
   },
@@ -64,7 +71,7 @@ export const teachers: Teacher[] = [
     subject: "তাজবিদ",
     experience: "১১ বছরের অভিজ্ঞতা",
     department: "নাজেরা বিভাগ",
-    image: principalImage,
+    image: t6Image,
     phone: "০১৭৬৬-৭৭৮৮৯৯",
     bio: "মাখরাজ, সিফাত ও তিলাওয়াত শুদ্ধকরণে বিশেষ প্রশিক্ষণ দেন।"
   },
@@ -75,7 +82,7 @@ export const teachers: Teacher[] = [
     subject: "কম্পিউটার",
     experience: "৬ বছরের অভিজ্ঞতা",
     department: "প্রযুক্তি বিভাগ",
-    image: principalImage,
+    image: t7Image,
     phone: "০১৩৪৪-১২৩৪৫৬",
     bio: "কম্পিউটার শিক্ষা, ডিজিটাল নিরাপত্তা ও প্রজেক্টভিত্তিক শেখার কাজ পরিচালনা করেন।"
   },
@@ -86,7 +93,7 @@ export const teachers: Teacher[] = [
     subject: "ইংরেজি",
     experience: "৯ বছরের অভিজ্ঞতা",
     department: "একাডেমিক বিভাগ",
-    image: principalImage,
+    image: t8Image,
     phone: "০১৮১১-২২৩৩৪৪",
     bio: "ভাষার চার দক্ষতা ও নৈতিক বিষয়ভিত্তিক পাঠে শিক্ষার্থীদের সহায়তা করেন।"
   }
