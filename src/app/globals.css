@@ -57,7 +57,7 @@ img {
 }
 
 .container {
-  width: min(1180px, calc(100% - 32px));
+  width: min(1440px, calc(100% - clamp(24px, 4vw, 64px)));
   margin-inline: auto;
 }
 
@@ -194,6 +194,6 @@ img {
 
 @media (max-width: 768px) {
   .container {
-    width: min(100% - 24px, 1180px);
+    width: min(100% - 24px, 1440px);
   }
 }

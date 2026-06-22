@@ -13,8 +13,8 @@ export function NoticeMarquee() {
 
   return (
     <div className="w-full border-b border-gold/30 bg-amber-50 text-primary-dark">
-      <div className="mx-auto flex min-h-9 w-full max-w-7xl items-center overflow-hidden px-4 text-sm sm:px-6 md:text-base lg:px-8">
-        <div className="z-10 flex h-9 shrink-0 items-center rounded-sm bg-gold px-4 font-bold text-ink shadow-sm">
+      <div className="mx-auto flex min-h-9 w-full max-w-[1440px] items-center overflow-hidden px-3 text-sm sm:px-6 md:text-base lg:px-8">
+        <div className="z-10 flex h-9 shrink-0 items-center rounded-sm bg-gold px-3 font-bold text-ink shadow-sm sm:px-4">
           নোটিশঃ
         </div>
         <div className="relative min-w-0 flex-1 overflow-hidden">

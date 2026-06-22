@@ -10,13 +10,13 @@ const sectionTransition = { duration: 0.6, ease: [0.22, 1, 0.36, 1] as const };
 
 export function PrincipalMessageSection() {
   return (
-    <section className="relative overflow-x-clip bg-[#f8fafc] py-14 md:py-20">
+    <section className="relative overflow-x-clip bg-[#f8fafc] py-12 md:py-16 lg:py-20">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(236,253,245,0.95),transparent_38%),radial-gradient(circle_at_bottom_right,rgba(245,158,11,0.10),transparent_24%)]" />
         <div className="absolute inset-0 opacity-50 [background-image:radial-gradient(rgba(0,105,92,0.08)_1px,transparent_1px)] [background-size:24px_24px]" />
       </div>
 
-      <div className="relative mx-auto w-full max-w-[1280px] px-4 sm:px-6">
+      <div className="container relative">
         <motion.article
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -50,11 +50,6 @@ export function PrincipalMessageSection() {
                   sizes="(max-width: 1023px) 100vw, 40vw"
                   className="h-[360px] w-full rounded-[20px] object-cover object-center sm:h-[420px] lg:h-[520px]"
                 />
-
-                <div className="absolute bottom-6 left-6 max-w-[220px] rounded-2xl bg-white/92 px-4 py-3 shadow-soft backdrop-blur">
-                  <p className="text-xs font-semibold text-primary">অধ্যক্ষ</p>
-                  <p className="mt-1 text-sm font-bold text-primary-dark">মাদরাসাতুল হিদায়াহ</p>
-                </div>
               </div>
             </motion.div>
 
