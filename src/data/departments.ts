@@ -1,9 +1,10 @@
 import type { Department, DepartmentCategory } from "@/types";
-import academic1 from "@/product/Academic/academic1.png";
-import academic2 from "@/product/Academic/academic2.png";
-import academic3 from "@/product/Academic/academic3.png";
-import academic4 from "@/product/Academic/academic4.png";
-import heroBanner from "@/product/herobanner1.png";
+import nureniImage from "@/product/Academic Bivag Picture/নূরানী বিভাগ.png";
+import nazaraImage from "@/product/Academic Bivag Picture/নাজেরা বিভাগ.png";
+import hifzImage from "@/product/Academic Bivag Picture/হিফজ বিভাগ.png";
+import kitabImage from "@/product/Academic Bivag Picture/কিতাব বিভাগ.png";
+import academicCoreImage from "@/product/Academic Bivag Picture/বাংলা-ইংরেজি-গণিত.png";
+import computerImage from "@/product/Academic Bivag Picture/কম্পিউটার শিক্ষা.png";
 
 export const departmentFilters: DepartmentCategory[] = [
   "সব বিভাগ",
@@ -22,7 +23,7 @@ export const departments: Department[] = [
     level: "প্রাক-প্রাথমিক",
     duration: "১ বছর",
     seats: "৪০ আসন",
-    image: academic2,
+    image: nureniImage,
     features: ["শুদ্ধ উচ্চারণ", "প্রতিদিন সবক", "আচরণ গঠন"]
   },
   {
@@ -33,7 +34,7 @@ export const departments: Department[] = [
     level: "প্রাথমিক থেকে মাধ্যমিক",
     duration: "১-২ বছর",
     seats: "৫০ আসন",
-    image: academic1,
+    image: nazaraImage,
     features: ["তাজবিদ চর্চা", "শ্রবণ মূল্যায়ন", "দৈনিক রিভিশন"]
   },
   {
@@ -44,7 +45,7 @@ export const departments: Department[] = [
     level: "নাজেরা উত্তীর্ণ",
     duration: "৩-৪ বছর",
     seats: "৩০ আসন",
-    image: heroBanner,
+    image: hifzImage,
     features: ["ব্যক্তিগত সবক", "সাপ্তাহিক দাওর", "মাসিক মূল্যায়ন"]
   },
   {
@@ -55,7 +56,7 @@ export const departments: Department[] = [
     level: "মুতাওয়াসসিতাহ",
     duration: "৪ বছর",
     seats: "৩৫ আসন",
-    image: academic3,
+    image: kitabImage,
     features: ["দরস পদ্ধতি", "কিতাব পাঠ", "বক্তৃতা অনুশীলন"]
   },
   {
@@ -66,7 +67,7 @@ export const departments: Department[] = [
     level: "প্রথম থেকে অষ্টম",
     duration: "বার্ষিক কোর্স",
     seats: "৬০ আসন",
-    image: academic4,
+    image: academicCoreImage,
     features: ["ওয়ার্কশিট", "ক্লাস টেস্ট", "অভিভাবক রিপোর্ট"]
   },
   {
@@ -77,7 +78,7 @@ export const departments: Department[] = [
     level: "তৃতীয় থেকে অষ্টম",
     duration: "৬ মাস",
     seats: "২৫ আসন",
-    image: academic1,
+    image: computerImage,
     features: ["ল্যাব ক্লাস", "প্রজেক্ট কাজ", "নিরাপদ ইন্টারনেট"]
   }
 ];

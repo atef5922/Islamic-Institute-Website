@@ -37,7 +37,7 @@ export function TopInfoBar() {
 
   return (
     <div className="border-b border-white/10 bg-gradient-to-r from-primary-dark via-[#006052] to-primary-dark text-white">
-      <div className="mx-auto flex min-h-9 w-full max-w-[1440px] flex-col items-center justify-center gap-x-4 gap-y-1 px-3 py-1.5 text-center text-[11px] font-bold sm:flex-row sm:flex-wrap sm:px-6 sm:text-xs md:justify-between md:text-sm lg:px-8">
+      <div className="mx-auto flex min-h-9 w-full max-w-[1440px] flex-row items-center justify-between gap-x-2 overflow-x-auto whitespace-nowrap px-2.5 py-1.5 text-[10px] font-bold sm:flex-wrap sm:gap-x-3 sm:px-3 sm:text-xs md:justify-between md:gap-x-4 md:text-sm lg:px-8">
         <div className="flex shrink-0 items-center gap-3 text-emerald-50 md:gap-6">
           <span>
             <span className="text-gold">Madrasa Code:</span> 11004
